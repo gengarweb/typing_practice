@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Welcome to My Typing Practice
 
-You can use the [editor on GitHub](https://github.com/gengarweb/typing_practice/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gengarweb/typing_practice/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Hello, I am Gengar. This is my first page on [Github](https://github.com/). Because of my very slow typing speed, I make this page to help myself to improve it. Please feel free to use it. There is a far way to upgrade this page into a real typing practice page. If you have any suggestion about this page or improving typing speed, please let me know. Thank you. Sorry for my not good English.
