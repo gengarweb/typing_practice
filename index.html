@@ -19,8 +19,7 @@
     Combo: <span id="combo" style="color: green;">0</span>
 </h3>
 <p id="keytobepress" style="font-size: 100px; text-align: center;"></p>
-<input style="position: absolute;left: -1000px;top: -1000px;" type="text" id="focusOnMeM">
-<input type="text" id="focusOnMe">
+<input style="position: absolute;left: -1000px;top: -1000px;" type="text" id="focusOnMe">
 <script>
 // fade out
 function scoreChanged(element) {
@@ -33,13 +32,17 @@ function scoreChanged(element) {
         opacity -=  0.1;
     }, 50);
 }
-
+document.body.onclick=function()
+        {
+            console.log("here");
+            var elem=document.getElementById("focusOnMe");
+            elem.focus()
+        };
 document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById("focusOnMe").focus();
-  document.getElementById("focusOnMe").click();
-  document.getElementById("focusOnMe").click();
-  document.getElementById("focusOnMe").click();
-  console.log(document.getElementById("focusOnMe"));
+  // document.getElementById("focusOnMe").focus();
+  // document.getElementById("focusOnMe").click();
+  // console.log(document.getElementById("focusOnMe"));
+
   var keyCodeToBePress = 32;  // 32 is the space key
   var countCorrect = 0;
   var countWrong = 0;
