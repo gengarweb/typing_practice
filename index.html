@@ -19,6 +19,7 @@
     Combo: <span id="combo" style="color: green;">0</span>
 </h3>
 <p id="keytobepress" style="font-size: 100px; text-align: center;"></p>
+<input type="hidden" id="focusOnMe">
 <script>
 // fade out
 function scoreChanged(element) {
@@ -33,6 +34,8 @@ function scoreChanged(element) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("focusOnMe").focus();
+  console.log(document.getElementById("focusOnMe"));
   var keyCodeToBePress = 32;  // 32 is the space key
   var countCorrect = 0;
   var countWrong = 0;
