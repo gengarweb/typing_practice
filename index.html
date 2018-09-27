@@ -19,8 +19,7 @@
     Combo: <span id="combo" style="color: green;">0</span>
 </h3>
 <p id="keytobepress" style="font-size: 100px; text-align: center;"></p>
-<input style="position: absolute;left: -1000px;top: -1000px;" type="text" id="focusOnMeM">
-<input type="hidden" id="focusOnMe">
+<input style="position: absolute;left: -1000px;top: -1000px;" type="text" id="focusOnMe">
 <script>
 // fade out
 function scoreChanged(element) {
@@ -33,17 +32,14 @@ function scoreChanged(element) {
         opacity -=  0.1;
     }, 50);
 }
-document.body.onclick=function()
-        {
-            console.log("here");
-            var elem=document.getElementById("focusOnMe");
-            elem.focus()
-        };
-document.addEventListener('DOMContentLoaded', function() {
-  // document.getElementById("focusOnMe").focus();
-  // document.getElementById("focusOnMe").click();
-  // console.log(document.getElementById("focusOnMe"));
 
+document.body.onclick=function()
+  {
+    var elem=document.getElementById("focusOnMe");
+    elem.focus()
+  };
+
+document.addEventListener('DOMContentLoaded', function() {
   var keyCodeToBePress = 32;  // 32 is the space key
   var countCorrect = 0;
   var countWrong = 0;
@@ -58,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
 
     // if space is press, starting the game.
-    if (e.keyCode == 32 && document.getElementById("description")) {
+    if (e.keyCode == 32 || e.keyCode == 62 && document.getElementById("description")) {
       document.getElementById("description").outerHTML = "";
       keyCodeToBePress = keyCodeList[Math.floor(Math.random()*keyCodeList.length)];
       document.getElementById("keytobepress").textContent = String.fromCharCode(keyCodeToBePress);
