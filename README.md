@@ -3,3 +3,6 @@ This is my first page on [Github](https://github.com/). Because of my very slow 
 
 ## Try it
 [Typing practice page](https://gengarsworld.com/apps/typing_practice/)
+
+## Copyright
+Copyright (c) 2012-2022 Gengar's World. See [LICENSE](/LICENSE) for details.
